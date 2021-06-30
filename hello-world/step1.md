@@ -8,14 +8,14 @@ This is an _example_ of creating a scenario and running a **command**
 
 `ls -ltr`{{execute}}
 
-`cat << EOF >testfile1.txt
+```cat << EOF >testfile1.txt
 usage: up [--level <n>| -n <levels>][--help][--version]
 
 Report bugs to: 
 up home page:
-EOF`{{execute}}
+EOF```{{execute}}
 
-`echo "usage: up [--level <n>| -n <levels>][--help][--version]
+```echo "usage: up [--level <n>| -n <levels>][--help][--version]
 
 Report bugs to: 
-up home page: ">testfile2.txt`{{execute}}
+up home page: ">testfile2.txt```{{execute}}
