@@ -14,3 +14,8 @@ usage: up [--level <n>| -n <levels>][--help][--version]
 Report bugs to: 
 up home page:
 EOF`{{execute}}
+
+`echo "usage: up [--level <n>| -n <levels>][--help][--version]
+
+Report bugs to: 
+up home page: ">testfile2.txt`{{execute}}
